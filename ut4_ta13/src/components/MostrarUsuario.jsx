@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { UserContext } from "./UserContext"; // Importar el contexto
 
 const MostrarUsuario = () => {
-  const { username } = useContext(UserContext); // Usar useContext para obtener el valor del contexto
+  const { username } = useContext(UserContext); // Obtener el nombre del usuario desde el contexto
 
   return (
     <div>
